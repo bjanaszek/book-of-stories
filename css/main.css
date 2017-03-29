@@ -1,0 +1,107 @@
+ /* Custom, iPhone Retina */ 
+@media only screen and (min-width : 320px) {
+    body { font-size: 10px; }
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) {
+    body { font-size: 12px; }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+    body { font-size: 12px; }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+    body { font-size: 14px; }
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+    body { font-size: 14px; }
+}
+
+body {
+    background-color: #fff4e6;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.title {
+    font-family: 'Special Elite', cursive;
+    font-size: 4em;
+}
+
+div.jumbotron {
+    font-family: 'Special Elite', cursive;
+    background-color: #be9b7b;
+}
+
+div.jumbotron h1 {
+    font-size: 5em;
+    text-align: center;
+}
+
+div.navbar-header {
+    float: right;
+}
+
+.center {
+    float: none;
+    margin: 0 auto;
+}
+
+.navbar {
+    background-image: none;
+}
+
+.navbar-custom {
+    background-color:#3c2f2f;
+    color:#fff4e6;
+    border-radius:0;
+    font-family: 'Special Elite', cursive;
+}
+
+.navbar-custom .navbar-nav > li > a {
+    color:#fff4e6;
+}
+.navbar-custom .navbar-nav > .active > a, .navbar-nav > .active > a:hover, .navbar-nav > .active > a:focus {
+    color: #fff4e6;
+    background-color:transparent;
+}
+.navbar-custom .navbar-brand {
+    color:#fff4e6;
+}
+
+p.author {
+    font-style: italic;
+}
+
+.issue {
+    font-family: 'Special Elite', cursive;
+}
+
+.navbar {
+    margin-bottom: 0px;
+}
+
+.navbar-default {
+    background-color: #4b3832;
+}
+
+.custom-nav {
+    background-color: #4b3832;
+    max-height: 52px;
+    width: 100%;
+}
+
+.col-center {
+   float: none;
+   margin-right: auto;
+   margin-left: auto;
+}
+
+#main {
+    /* width: 970px; */
+}
